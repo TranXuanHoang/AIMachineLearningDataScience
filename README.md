@@ -4,3 +4,8 @@ This source code repository contains source code of some of simple computer soft
 
 |Project |Purpose |Keywords |
 |--------|--------|---------|
+| [00-basics](00-basics) | Introduction to `Machine Learning`, `Data Science` and `Jupyter Notebooks` | `Jupyter Notebooks`, `Conda` |
+
+## Cheatsheets
+
+:notebook: [CondaCheatsheet](CondaCheatsheet.md)
