@@ -1,0 +1,10 @@
+name: env
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+prefix: C:\Users\hoang.tran\Desktop\Home\Workplace\AIMachineLearningDataScience\00-basics\env
