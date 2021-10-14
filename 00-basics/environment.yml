@@ -8,4 +8,5 @@ dependencies:
   - numpy
   - matplotlib
   - spacy
+  - bokeh
 prefix: C:\Users\hoang.tran\Desktop\Home\Workplace\AIMachineLearningDataScience\00-basics\env

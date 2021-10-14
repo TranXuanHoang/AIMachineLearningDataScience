@@ -49,6 +49,7 @@ conda env export -p <path/to/env/dir> -f <output_env_file.yml>
 # Shorthand command (run after activating the env we want to export)
 conda env export > environment.yml
 
-# E.g., Export the
+# E.g., Export dependencies of the environment installed in './env'
+# and output dependencies list to 'envorinment.yaml' file
 conda env export --from-history -p ./env -f environment.yml
 ```
