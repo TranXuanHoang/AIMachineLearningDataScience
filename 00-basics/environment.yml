@@ -9,4 +9,6 @@ dependencies:
   - matplotlib
   - spacy
   - bokeh
+  - plotly
+  - jupyterlab
 prefix: C:\Users\hoang.tran\Desktop\Home\Workplace\AIMachineLearningDataScience\00-basics\env

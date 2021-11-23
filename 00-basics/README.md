@@ -22,6 +22,13 @@ python -m spacy download ja_core_news_lg
 
 # Install Bokeh for creating interactive visualizations for modern web browsers
 conda install -c bokeh bokeh
+
+# Install Plotly and Cufflinks (to link Plotly and Pandas)
+conda install plotly
+pip install cufflinks
+
+# Install JupyterLab
+conda install -c conda-forge jupyterlab
 ```
 
 ## Start Jupyter Notebooks
@@ -39,4 +46,15 @@ conda activate </Absolute/Path/to/AIMachineLearningDataScience/00-basics/env>
 conda activate ./env
 
 jupyter notebook
+```
+
+## Start JupyterLab
+
+```powershell
+# cd into the directory where env was created,
+# then activate virtual environment
+conda activate ./env
+
+# Start JupyterLab
+jupyter-lab
 ```
