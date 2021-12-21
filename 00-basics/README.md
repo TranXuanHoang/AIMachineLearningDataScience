@@ -12,6 +12,9 @@ conda create --name basics jupyter pandas numpy matplotlib scikit-learn
 # install 'jupyter', 'pandas', 'numpy', 'matplotlib', and 'scikit-learn'
 conda create --prefix ./env jupyter pandas numpy matplotlib scikit-learn
 
+# Install Seaborn
+conda install -c anaconda seaborn
+
 # Install spaCy and its trained pipelines (English and Japanese)
 # https://spacy.io/usage
 # Should run the installation against a specific 'environment'
@@ -24,7 +27,7 @@ python -m spacy download ja_core_news_lg
 conda install -c bokeh bokeh
 
 # Install Plotly and Cufflinks (to link Plotly and Pandas)
-conda install plotly
+conda install -c conda-forge plotly
 pip install cufflinks
 
 # Install JupyterLab
