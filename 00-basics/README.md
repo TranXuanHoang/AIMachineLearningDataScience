@@ -30,6 +30,12 @@ conda install -c bokeh bokeh
 conda install -c conda-forge plotly
 pip install cufflinks
 
+# Install Plotly Dash and Jupyter Dash to support
+# Jupyter Notebooks / JupyterLab as development environment
+# using Dash and Plotly
+conda install -c conda-forge dash
+conda install -c conda-forge jupyter-dash
+
 # Install JupyterLab
 conda install -c conda-forge jupyterlab
 ```

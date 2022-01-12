@@ -12,4 +12,6 @@ dependencies:
   - bokeh
   - plotly
   - jupyterlab
+  - dash
+  - jupyter-dash
 prefix: C:\Users\hoang.tran\Desktop\Home\Workplace\AIMachineLearningDataScience\00-basics\env
