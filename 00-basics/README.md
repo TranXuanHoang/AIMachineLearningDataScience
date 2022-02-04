@@ -23,6 +23,9 @@ conda install -c conda-forge spacy
 python -m spacy download en_core_web_trf
 python -m spacy download ja_core_news_lg
 
+# Install NLTK
+conda install -c anaconda nltk
+
 # Install Bokeh for creating interactive visualizations for modern web browsers
 conda install -c bokeh bokeh
 
