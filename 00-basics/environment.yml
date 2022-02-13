@@ -15,4 +15,5 @@ dependencies:
   - dash
   - jupyter-dash
   - nltk
+  - tensorflow
 prefix: C:\Users\hoang.tran\Desktop\Home\Workplace\AIMachineLearningDataScience\00-basics\env

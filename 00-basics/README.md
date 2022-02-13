@@ -39,6 +39,9 @@ pip install cufflinks
 conda install -c conda-forge dash
 conda install -c conda-forge jupyter-dash
 
+# Install Tensorflow
+conda install -c conda-forge tensorflow
+
 # Install JupyterLab
 conda install -c conda-forge jupyterlab
 ```
